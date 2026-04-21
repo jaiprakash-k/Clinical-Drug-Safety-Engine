@@ -1,0 +1,240 @@
+{
+  "interactions": [
+    {
+      "drug_a": "warfarin",
+      "drug_b": "aspirin",
+      "severity": "high",
+      "mechanism": "Both agents impair hemostasis through different mechanisms (vitamin K antagonism and COX-1 inhibition). Combined use significantly increases the risk of gastrointestinal and intracranial hemorrhage.",
+      "clinical_recommendation": "Avoid concurrent use unless specifically indicated (e.g., mechanical heart valve). If co-prescribed, monitor INR closely and assess for signs of bleeding.",
+      "source_confidence": "high"
+    },
+    {
+      "drug_a": "metformin",
+      "drug_b": "furosemide",
+      "severity": "medium",
+      "mechanism": "Furosemide may increase blood glucose levels, partially counteracting metformin's hypoglycemic effect. Additionally, furosemide-induced dehydration can increase the risk of metformin-associated lactic acidosis.",
+      "clinical_recommendation": "Monitor blood glucose more frequently. Ensure adequate hydration. Assess renal function regularly, especially in elderly patients.",
+      "source_confidence": "high"
+    },
+    {
+      "drug_a": "lisinopril",
+      "drug_b": "potassium",
+      "severity": "high",
+      "mechanism": "ACE inhibitors reduce aldosterone secretion, decreasing renal potassium excretion. Supplemental potassium can lead to life-threatening hyperkalemia.",
+      "clinical_recommendation": "Avoid potassium supplements unless serum potassium is documented as low. Monitor serum potassium within 1 week of co-initiation and periodically thereafter.",
+      "source_confidence": "high"
+    },
+    {
+      "drug_a": "simvastatin",
+      "drug_b": "clarithromycin",
+      "severity": "high",
+      "mechanism": "Clarithromycin is a potent CYP3A4 inhibitor that markedly increases simvastatin plasma concentrations, significantly elevating the risk of rhabdomyolysis and acute renal failure.",
+      "clinical_recommendation": "Contraindicated combination. Suspend simvastatin during clarithromycin therapy or switch to a statin not metabolized by CYP3A4 (e.g., rosuvastatin, pravastatin).",
+      "source_confidence": "high"
+    },
+    {
+      "drug_a": "methotrexate",
+      "drug_b": "ibuprofen",
+      "severity": "high",
+      "mechanism": "NSAIDs reduce renal clearance of methotrexate and may displace it from protein binding sites, leading to elevated methotrexate levels and increased risk of bone marrow suppression, hepatotoxicity, and nephrotoxicity.",
+      "clinical_recommendation": "Avoid NSAIDs in patients on methotrexate, particularly at oncologic doses. If analgesic needed, use acetaminophen. Monitor CBC and renal function.",
+      "source_confidence": "high"
+    },
+    {
+      "drug_a": "digoxin",
+      "drug_b": "amiodarone",
+      "severity": "high",
+      "mechanism": "Amiodarone inhibits P-glycoprotein and CYP3A4-mediated metabolism of digoxin, increasing serum digoxin concentrations by 70-100%, raising the risk of digoxin toxicity (arrhythmias, nausea, visual disturbances).",
+      "clinical_recommendation": "Reduce digoxin dose by 50% when initiating amiodarone. Monitor serum digoxin levels within 1 week and adjust dose accordingly. Watch for signs of toxicity.",
+      "source_confidence": "high"
+    },
+    {
+      "drug_a": "fluoxetine",
+      "drug_b": "tramadol",
+      "severity": "high",
+      "mechanism": "Both agents increase serotonergic activity. Fluoxetine (SSRI) inhibits serotonin reuptake while tramadol has serotonin-releasing properties. Combination can precipitate serotonin syndrome (agitation, hyperthermia, clonus, diaphoresis).",
+      "clinical_recommendation": "Avoid combination. If pain management is needed, consider non-serotonergic alternatives. Educate patient on serotonin syndrome symptoms. If co-prescribed, use lowest effective doses.",
+      "source_confidence": "high"
+    },
+    {
+      "drug_a": "ciprofloxacin",
+      "drug_b": "theophylline",
+      "severity": "high",
+      "mechanism": "Ciprofloxacin inhibits CYP1A2, the primary metabolic pathway of theophylline, leading to elevated theophylline levels and risk of seizures, cardiac arrhythmias, and death.",
+      "clinical_recommendation": "Avoid combination if possible. If unavoidable, reduce theophylline dose by 30-50% and monitor serum theophylline levels. Consider alternative antibiotic (e.g., azithromycin).",
+      "source_confidence": "high"
+    },
+    {
+      "drug_a": "clopidogrel",
+      "drug_b": "omeprazole",
+      "severity": "medium",
+      "mechanism": "Omeprazole inhibits CYP2C19, which is required to convert clopidogrel (a prodrug) to its active metabolite. This reduces the antiplatelet effect and may increase cardiovascular event risk.",
+      "clinical_recommendation": "Switch to pantoprazole (which has minimal CYP2C19 inhibition) if acid suppression is needed. Avoid omeprazole and esomeprazole with clopidogrel.",
+      "source_confidence": "high"
+    },
+    {
+      "drug_a": "lithium",
+      "drug_b": "ibuprofen",
+      "severity": "high",
+      "mechanism": "NSAIDs reduce renal prostaglandin synthesis, decreasing renal lithium clearance and causing lithium accumulation. This can result in lithium toxicity (tremor, confusion, renal failure, seizures).",
+      "clinical_recommendation": "Avoid NSAIDs in lithium-treated patients. Use acetaminophen for pain relief. If NSAID is essential, monitor serum lithium levels within 5 days and adjust dose.",
+      "source_confidence": "high"
+    },
+    {
+      "drug_a": "warfarin",
+      "drug_b": "ciprofloxacin",
+      "severity": "high",
+      "mechanism": "Ciprofloxacin inhibits CYP1A2 and CYP3A4, enzymes involved in warfarin metabolism. This increases warfarin levels and INR, substantially raising bleeding risk. Ciprofloxacin also disrupts vitamin K-producing gut flora.",
+      "clinical_recommendation": "If combination is necessary, reduce warfarin dose and monitor INR every 2-3 days during antibiotic therapy and for 1 week after completion. Consider alternative antibiotic.",
+      "source_confidence": "high"
+    },
+    {
+      "drug_a": "sildenafil",
+      "drug_b": "nitroglycerin",
+      "severity": "high",
+      "mechanism": "Both agents cause vasodilation via the nitric oxide-cGMP pathway. Combined use can cause severe, refractory hypotension and cardiovascular collapse.",
+      "clinical_recommendation": "Absolutely contraindicated. Do not administer nitrates within 24 hours of sildenafil (48 hours for tadalafil). Ensure patients on PDE5 inhibitors are identified before administering nitrates.",
+      "source_confidence": "high"
+    },
+    {
+      "drug_a": "atorvastatin",
+      "drug_b": "gemfibrozil",
+      "severity": "high",
+      "mechanism": "Gemfibrozil inhibits OATP1B1 transporter and glucuronidation of statins, markedly increasing statin exposure and the risk of rhabdomyolysis.",
+      "clinical_recommendation": "Avoid combination. If fibrate therapy is needed with a statin, use fenofibrate instead of gemfibrozil (lower interaction risk). Monitor for muscle pain and check CK levels.",
+      "source_confidence": "high"
+    },
+    {
+      "drug_a": "amoxicillin",
+      "drug_b": "methotrexate",
+      "severity": "high",
+      "mechanism": "Amoxicillin competes with methotrexate for renal tubular secretion, reducing methotrexate clearance and increasing the risk of methotrexate toxicity (pancytopenia, mucositis, nephrotoxicity).",
+      "clinical_recommendation": "Monitor methotrexate levels if co-administration is unavoidable. Watch for signs of toxicity (mouth sores, bruising, fever). Consider alternative antibiotic.",
+      "source_confidence": "high"
+    },
+    {
+      "drug_a": "spironolactone",
+      "drug_b": "lisinopril",
+      "severity": "high",
+      "mechanism": "Both agents independently increase serum potassium. ACE inhibitors reduce aldosterone-mediated potassium excretion, while spironolactone directly blocks aldosterone receptors. Combination carries significant hyperkalemia risk.",
+      "clinical_recommendation": "If combination is clinically indicated (e.g., heart failure), start spironolactone at low dose (12.5-25mg). Check serum potassium and creatinine within 3 days, then weekly for 4 weeks. Avoid potassium supplements.",
+      "source_confidence": "high"
+    },
+    {
+      "drug_a": "phenytoin",
+      "drug_b": "valproic acid",
+      "severity": "medium",
+      "mechanism": "Valproic acid displaces phenytoin from plasma protein binding sites and inhibits its metabolism, increasing free phenytoin concentrations. Phenytoin may also decrease valproic acid levels through enzyme induction.",
+      "clinical_recommendation": "Monitor free (unbound) phenytoin levels rather than total levels. Adjust doses based on clinical response and serum concentrations of both drugs. Watch for phenytoin toxicity signs (nystagmus, ataxia).",
+      "source_confidence": "high"
+    },
+    {
+      "drug_a": "metformin",
+      "drug_b": "alcohol",
+      "severity": "high",
+      "mechanism": "Alcohol impairs hepatic gluconeogenesis and lactate metabolism. Combined with metformin's inhibition of mitochondrial complex I, this significantly increases the risk of lactic acidosis, a rare but potentially fatal condition.",
+      "clinical_recommendation": "Advise patients to limit or avoid alcohol consumption while on metformin. Excessive alcohol use is a relative contraindication to metformin therapy. Monitor lactate levels if alcohol use is suspected.",
+      "source_confidence": "high"
+    },
+    {
+      "drug_a": "amlodipine",
+      "drug_b": "simvastatin",
+      "severity": "medium",
+      "mechanism": "Amlodipine inhibits CYP3A4, increasing simvastatin plasma levels approximately 1.5-2 fold, elevating the risk of dose-dependent myopathy.",
+      "clinical_recommendation": "Limit simvastatin dose to 20mg daily when co-prescribed with amlodipine (per FDA guidance). Consider switching to atorvastatin or rosuvastatin which have lower interaction potential.",
+      "source_confidence": "high"
+    },
+    {
+      "drug_a": "fluconazole",
+      "drug_b": "warfarin",
+      "severity": "high",
+      "mechanism": "Fluconazole is a potent inhibitor of CYP2C9, the primary enzyme responsible for S-warfarin metabolism. This can double or triple the INR, causing major hemorrhagic events.",
+      "clinical_recommendation": "Reduce warfarin dose by 25-50% when starting fluconazole. Monitor INR within 3-5 days and adjust dosing. Consider alternative antifungal if possible.",
+      "source_confidence": "high"
+    },
+    {
+      "drug_a": "prednisone",
+      "drug_b": "ibuprofen",
+      "severity": "medium",
+      "mechanism": "Both corticosteroids and NSAIDs independently increase the risk of gastrointestinal ulceration and bleeding. Combined use has a synergistic effect on GI mucosal damage.",
+      "clinical_recommendation": "If combination is necessary, add gastroprotective therapy (PPI such as omeprazole). Monitor for GI symptoms (abdominal pain, black stools). Use lowest effective doses for shortest duration.",
+      "source_confidence": "high"
+    }
+  ],
+  "allergy_cross_reactivity": {
+    "penicillin": ["amoxicillin", "ampicillin", "piperacillin", "nafcillin", "oxacillin", "dicloxacillin", "penicillin v", "penicillin g", "amoxicillin/clavulanate", "ampicillin/sulbactam", "piperacillin/tazobactam"],
+    "sulfonamide": ["sulfamethoxazole", "sulfasalazine", "sulfadiazine", "trimethoprim/sulfamethoxazole", "bactrim", "septra", "sulfisoxazole"],
+    "cephalosporin": ["cephalexin", "cefazolin", "ceftriaxone", "cefuroxime", "cefdinir", "cefepime", "cefpodoxime", "ceftazidime", "cefotaxime"],
+    "nsaid": ["ibuprofen", "naproxen", "aspirin", "diclofenac", "indomethacin", "meloxicam", "piroxicam", "ketorolac", "celecoxib", "nabumetone"],
+    "statin": ["atorvastatin", "simvastatin", "rosuvastatin", "pravastatin", "lovastatin", "fluvastatin", "pitavastatin"],
+    "ace inhibitor": ["lisinopril", "enalapril", "ramipril", "captopril", "benazepril", "fosinopril", "quinapril", "perindopril", "trandolapril"],
+    "arb": ["losartan", "valsartan", "irbesartan", "candesartan", "telmisartan", "olmesartan", "azilsartan"],
+    "fluoroquinolone": ["ciprofloxacin", "levofloxacin", "moxifloxacin", "ofloxacin", "norfloxacin", "gemifloxacin"],
+    "opioid": ["morphine", "codeine", "oxycodone", "hydrocodone", "fentanyl", "tramadol", "methadone", "hydromorphone", "meperidine"],
+    "benzodiazepine": ["diazepam", "lorazepam", "alprazolam", "clonazepam", "midazolam", "temazepam", "oxazepam"],
+    "tetracycline": ["doxycycline", "minocycline", "tetracycline", "demeclocycline", "tigecycline"],
+    "macrolide": ["azithromycin", "clarithromycin", "erythromycin", "fidaxomicin"]
+  },
+  "condition_contraindications": [
+    {
+      "condition": "kidney disease",
+      "drugs": ["ibuprofen", "naproxen", "aspirin", "diclofenac", "ketorolac", "indomethacin", "meloxicam", "celecoxib", "metformin", "lithium", "gentamicin", "vancomycin"],
+      "risk_level": "high",
+      "recommendation": "NSAIDs reduce renal blood flow via prostaglandin inhibition and can cause acute kidney injury. Metformin may accumulate causing lactic acidosis. Nephrotoxic drugs require dose adjustment or avoidance."
+    },
+    {
+      "condition": "liver disease",
+      "drugs": ["acetaminophen", "paracetamol", "methotrexate", "valproic acid", "isoniazid", "amiodarone", "atorvastatin", "simvastatin"],
+      "risk_level": "high",
+      "recommendation": "Hepatotoxic drugs should be avoided or used at reduced doses with liver function monitoring. Acetaminophen should not exceed 2g/day in liver disease."
+    },
+    {
+      "condition": "asthma",
+      "drugs": ["propranolol", "atenolol", "metoprolol", "nadolol", "carvedilol", "timolol", "aspirin", "ibuprofen", "naproxen"],
+      "risk_level": "high",
+      "recommendation": "Beta-blockers can cause bronchospasm. NSAIDs/aspirin may trigger aspirin-exacerbated respiratory disease (AERD) in susceptible patients. Use cardioselective beta-blockers with caution if needed."
+    },
+    {
+      "condition": "diabetes",
+      "drugs": ["prednisone", "dexamethasone", "hydrocortisone", "prednisolone", "methylprednisolone"],
+      "risk_level": "medium",
+      "recommendation": "Corticosteroids cause insulin resistance and hyperglycemia. Monitor blood glucose closely and adjust diabetic medications accordingly. Consider steroid-sparing alternatives."
+    },
+    {
+      "condition": "heart failure",
+      "drugs": ["ibuprofen", "naproxen", "celecoxib", "diclofenac", "pioglitazone", "rosiglitazone", "verapamil", "diltiazem"],
+      "risk_level": "high",
+      "recommendation": "NSAIDs cause sodium and water retention, worsening heart failure. Thiazolidinediones increase fluid retention. Non-dihydropyridine calcium channel blockers have negative inotropic effects."
+    },
+    {
+      "condition": "pregnancy",
+      "drugs": ["methotrexate", "warfarin", "isotretinoin", "valproic acid", "lisinopril", "enalapril", "losartan", "atorvastatin", "simvastatin", "misoprostol", "finasteride"],
+      "risk_level": "high",
+      "recommendation": "These drugs are teratogenic or contraindicated in pregnancy. Immediate discontinuation and obstetric consultation required. Use pregnancy-safe alternatives."
+    },
+    {
+      "condition": "peptic ulcer",
+      "drugs": ["aspirin", "ibuprofen", "naproxen", "diclofenac", "ketorolac", "prednisone", "dexamethasone", "clopidogrel", "warfarin"],
+      "risk_level": "high",
+      "recommendation": "NSAIDs and anticoagulants increase the risk of GI bleeding. If use is essential, co-prescribe a proton pump inhibitor and monitor for GI symptoms."
+    },
+    {
+      "condition": "hypothyroidism",
+      "drugs": ["calcium carbonate", "ferrous sulfate", "aluminum hydroxide", "cholestyramine", "sucralfate"],
+      "risk_level": "medium",
+      "recommendation": "These drugs bind levothyroxine in the GI tract, reducing its absorption. Separate administration by at least 4 hours. Monitor TSH levels."
+    },
+    {
+      "condition": "glaucoma",
+      "drugs": ["atropine", "diphenhydramine", "oxybutynin", "tricyclic antidepressants", "ipratropium"],
+      "risk_level": "medium",
+      "recommendation": "Anticholinergic drugs can precipitate acute angle-closure glaucoma by causing mydriasis. Use with caution and ophthalmologic monitoring in narrow-angle glaucoma."
+    },
+    {
+      "condition": "hypertension",
+      "drugs": ["pseudoephedrine", "phenylephrine", "ibuprofen", "naproxen", "prednisone"],
+      "risk_level": "medium",
+      "recommendation": "Sympathomimetics and NSAIDs can elevate blood pressure. NSAIDs also blunt the effect of antihypertensives. Monitor blood pressure and consider alternatives."
+    }
+  ]
+}
