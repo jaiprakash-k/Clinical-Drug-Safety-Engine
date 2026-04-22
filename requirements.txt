@@ -2,11 +2,5 @@ fastapi==0.115.6
 uvicorn[standard]==0.34.0
 pydantic==2.7.4
 python-dotenv==1.0.1
-
-# llama-cpp-python removed for deployment
-
-redis==5.2.1
-
-pytest==8.3.4
-pytest-asyncio==0.24.0
-httpx==0.28.1# force update
+httpx==0.28.1
+gunicorn==21.2.0

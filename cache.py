@@ -175,6 +175,9 @@ class RedisCache:
             self._client.ping()
             self._available = True
             logger.info("Redis cache connected at %s:%d", host, port)
+        except ImportError:
+            logger.warning("redis package not installed, falling back to in-memory cache")
+            self._client = None
         except Exception as e:
             logger.warning("Redis unavailable (%s), falling back to in-memory cache", e)
             self._client = None
